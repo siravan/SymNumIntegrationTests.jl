@@ -1,0 +1,62 @@
+a*(x^2);(u**2)*a;0
+a*x + b*(x^2) - c*(x^3);u*a + (u**2)*b + (-u**3)*c;0
+(-4 + 3(a^2) + 3(x^2)) / (4a*b);(3*u**2 - 4 + 3(a**2)) / (4a*b);0
+a / x;(1/u)*a;0
+1 / (5 + a*x);1 / (5 + u*a);0
+1 / (a + x);1 / (u + a);0
+x / (a + x);u / (u + a);0
+1 / ((a + x)^2);1 / ((u + a)**2);0
+x / ((a + x)^2);u / ((u + a)**2);0
+(a + x)^3;(u + a)**3;0
+((-a + x)^4)*x;u*((u - a)**4);0
+1 / (a + x^2);1 / (u**2 + a);0
+sqrt(-a + x);sqrt(u - a);0
+1 / sqrt(-1 + a*x);1 / sqrt(-1 + u*a);0
+x*sqrt(b + a*x);u*sqrt(u*a + b);0
+log(a*x);log(u*a);0
+x*log(a*x);u*log(u*a);0
+(x^2)*log(a*x);(u**2)*log(u*a);0
+log(a*x) / x;(1/u)*log(u*a);0
+log(b - a*x + x^2);log(u**2 + (-u)*a + b);0
+log(a*x)^2;log(u*a)**2;0
+log(a + x);log(u + a);0
+x*log(a + x^2);u*log(u**2 + a);0
+exp(a*x);exp(u*a);0
+x*exp(a*x);u*exp(u*a);0
+(x^2)*exp(a*x);(u**2)*exp(u*a);0
+x*exp(a*(x^2));u*exp((u**2)*a);0
+sin(a*x);sin(u*a);0
+sin(a*x)^2;sin(u*a)**2;0
+cos(b + a*x)^2;cos(u*a + b)**2;0
+cos(a*x)*sin(a*x);sin(u*a)*cos(u*a);0
+cos(b*x)*sin(a*x);sin(u*a)*cos(u*b);0
+tan(a*x);tan(u*a);0
+sec(a*x);sec(u*a);0
+x*cos(a*x);u*cos(u*a);0
+(x^2)*cos(a*x);(u**2)*cos(u*a);0
+sin(b*x)*exp(a*x);sin(u*b)*exp(u*a);0
+x*exp(a*x)*sin(a*x);u*sin(u*a)*exp(u*a);0
+x*exp(a*x)*cos(b*x);u*cos(u*b)*exp(u*a);0
+cosh(a*x);cosh(u*a);0
+cosh(b*x)*exp(a*x);cosh(u*b)*exp(u*a);0
+cosh(b*x)*cos(a*x);cosh(u*b)*cos(u*a);0
+exp(c*x)*cos(b*x)*sin(a*x);exp(u*c)*sin(u*a)*cos(u*b);0
+exp(c*x)*sinh(b*x)*sin(a*x);sinh(u*b)*exp(u*c)*sin(u*a);0
+tan(a*x)*(sec(a*x)^2);tan(u*a)*(sec(u*a)**2);0
+exp(a*x) / (1 + exp(a*x));exp(u*a) / (1 + exp(u*a));0
+exp(a*x) / exp(b*x);exp(u*a) / exp(u*b);0
+cos(exp(a*x))*exp(a*x)*sin(exp(a*x));cos(exp(u*a))*sin(exp(u*a))*exp(u*a);0
+1 / (x*log(a*x));1 / (u*log(u*a));0
+log(log(a*x)) / x;(1/u)*log(log(u*a));0
+log(a + log(x)) / x;(1/u)*log(a + log(u));0
+sin(log(a*x));sin(log(u*a));0
+exp(a*x) / (c + b*exp(a*x));exp(u*a) / (c + b*exp(u*a));0
+exp(exp(a*x))*exp(a*x);exp(exp(u*a))*exp(u*a);0
+log(cos(a*x))*tan(a*x);tan(u*a)*log(cos(u*a));0
+1 / (a + x^3);1 / (u**3 + a);0
+exp(b + a*x) / x;(1/u)*exp(u*a + b);0
+sin(a + x) / (a + x);sin(u + a) / (u + a);0
+cos(a*x) / x;(1/u)*cos(u*a);0
+x / log(a*(x^2));u / log((u**2)*a);0
+exp(a*x) / x + (-exp(a*x)) / (x^2);(1/u - 1/u**2)*exp(u*a);1
+cos(a*x) / x + (-sin(a*x)) / (x^2);(-1/u**2)*sin(u*a) + (1/u)*cos(u*a);1

@@ -1,0 +1,88 @@
+cot(x)^4;cot(u)**4;0
+1 / ((1 + x^2)*(x^4));1/(u**4*(u**2 + 1));0
+(x + x^2) / sqrt(x);(u**2 + u)/sqrt(u);0
+cos(x);cos(u);0
+x*exp(x^2);u*exp(u**2);0
+tan(x)*(sec(x)^2);tan(u)*sec(u)**2;0
+x*sqrt(1 + x^2);u*sqrt(u**2 + 1);0
+sin(x)*exp(x);exp(u)*sin(u);0
+(cos(x)*(csc(x)^2)) / (sin(x)^2);cos(u)*csc(u)**2/sin(u)**2;0
+sin(exp(x));sin(exp(u));0
+sin(x) / x;sin(u)/u;0
+sin(x) + exp(x);exp(u) + sin(u);0
+exp(x^2) + 2(x^2)*exp(x^2);2*u**2*exp(u**2) + exp(u**2);0
+(x + exp(x))^2;(u + exp(u))**2;0
+2exp(x) + exp(2x) + x^2;u**2 + exp(2*u) + 2*exp(u);0
+sin(x)*cos(x);sin(u)*cos(u);0
+exp(x) / (1 + exp(x));exp(u)/(exp(u) + 1);0
+x^1.5;u**1.5;0
+cos(3 + 2x);cos(2*u + 3);0
+16exp(2x);16*exp(2*u);0
+sin(exp(x))*(cos(exp(x))^2)*exp(x);exp(u)*sin(exp(u))*cos(exp(u))**2;0
+x*sqrt(1 + x);u*sqrt(u + 1);0
+1 / (-1 + x^4);1/(u**4 - 1);0
+exp(x) / (2 + 3exp(2x));exp(u)/(3*exp(2*u) + 2);0
+exp(2x) / (4 + 5exp(4x));exp(2*u)/(5*exp(4*u) + 4);0
+exp(1 + x) / (1 + exp(x));exp(u + 1)/(exp(u) + 1);0
+(10^x)*exp(x);10**u*exp(u);0
+(x^3)*sin(x^2);u**3*sin(u**2);0
+(x^7) / (1 + x^12);u**7/(u**12 + 1);0
+(x^12)*sin(x^8);u**12*sin(u**8);0
+cos(sqrt(x));cos(sqrt(u));0
+1 / (x^0.3333333333333333 + x^0.5);1/(u**0.333333333333333 + u**0.5);0
+sqrt((1 + x) / (3 + 2x));sqrt((u + 1)/(2*u + 3));0
+(x^4) / ((1 - (x^2))^2.5);u**4/(1 - u**2)**2.5;0
+(x^0.5)*((1 + x)^2.5);u**0.5*(u + 1)**2.5;0
+sqrt(34 - 9(x^2)) / (1 - (x^2));sqrt(34 - 9*u**2)/(1 - u**2);0
+sin(x)^2;sin(u)**2;0
+sqrt(1 + 16(sin(x)^2)) / sin(x);sqrt(16*sin(u)**2 + 1)/sin(u);0
+1 / (1 + cos(x));1/(cos(u) + 1);0
+x*exp(x);u*exp(u);0
+(x*exp(x)) / ((1 + x)^2);u*exp(u)/(u + 1)**2;0
+(1 + 2(x^2))*exp(x^2);(2*u**2 + 1)*exp(u**2);0
+exp(x^2);exp(u**2);0
+exp(x) / x;exp(u)/u;0
+x / (1 + x^3);u/(u**3 + 1);0
+1 / (-1 + x^6);1/(u**6 - 1);0
+Inf;Inf;0
+x*log(x);u*log(u);0
+(x^2)*asin(x);u**2*asin(u);0
+1 / (1 + 2x + x^2);1/(u**2 + 2*u + 1);0
+log(x) / ((1 + log(x))^2);log(u)/(log(u) + 1)**2;0
+1 / (x*(1 + log(x)^2));1/(u*(log(u)**2 + 1));0
+1 / log(x);1/log(u);0
+x*(sin(x) + cos(x));u*(sin(u) + cos(u));0
+(x + exp(x)) / exp(x);(u + exp(u))*exp(-u);0
+x*((1 + exp(x))^2);u*(exp(u) + 1)**2;0
+x*cos(x);u*cos(u);0
+x*(log(x)^2);u*log(u)**2;0
+(1 + sin(x)^3)*cos(x);(sin(u)**3 + 1)*cos(u);0
+1 / (sqrt(1 - (x^2))*(1 + asin(x)^2));1/(sqrt(1 - u**2)*(asin(u)**2 + 1));0
+sin(x) / (sin(x) + cos(x));sin(u)/(sin(u) + cos(u));0
+(-sqrt(16 + 16(1 - (x^2)))) / (1 - (x^2));-sqrt(32 - 16*u**2)/(1 - u**2);0
+(-26(cos(x)^2)) / (5(1 - (26//25)*(sin(x)^2)));-26*cos(u)**2/(5 - 26*sin(u)**2/5);0
+-41 / (4((1 + x^2)^2)*(1 + (-41(x^2)) / (16(1 + x^2))));-41/(4*(u**2 + 1)**2*(-41*u**2/(16*u**2 + 16) + 1));0
+-30 / ((9 - (x^2))*(1 + x^2));-30/((9 - u**2)*(u**2 + 1));0
+(sin(x)^4) / (cos(x)^4);sin(u)**4/cos(u)**4;0
+(x^4) / (1 + x^2);u**4/(u**2 + 1);0
+((1 + 4(x^2) + x^3 + 5(x^4) + 2(x^6))*exp(x^2)) / ((1 + x^2)^2);(2*u**6 + 5*u**4 + u**3 + 4*u**2 + 1)*exp(u**2)/(u**2 + 1)**2;0
+exp(-1 - x);exp(-u - 1);0
+(x + 1 / x)*log(x);(u + 1/u)*log(u);0
+x / (1 + x^4);u/(u**4 + 1);0
+(x^5) / (1 + x^4);u**5/(u**4 + 1);0
+1 / (1 + tan(x)^2);1/(tan(u)**2 + 1);0
+(-(x^2)) / ((1 - (x^2))^1.5);-u**2/(1 - u**2)**1.5;0
+1 / x;1/u;0
+sec(2x) / (1 + 3tan(x) + sec(x)^2);sec(2*u)/(3*tan(u) + sec(u)**2 + 1);0
+1 / (sec(x)^2);sec(u)**(-2);0
+(1 + x^2) / sqrt(x);(u**2 + 1)/sqrt(u);0
+x / sqrt(5 + 2x + x^2);u/sqrt(u**2 + 2*u + 5);0
+(sin(x)^2)*cos(x);sin(u)**2*cos(u);0
+exp(2x) / (1 + exp(x));exp(2*u)/(exp(u) + 1);0
+1 / (1 - cos(x));1/(1 - cos(u));0
+(1 + x) / sqrt(2x - (x^2));(u + 1)/sqrt(-u**2 + 2*u);0
+(2exp(x)) / (2 + 3exp(2x));2*exp(u)/(3*exp(2*u) + 2);0
+exp(6x) / (1 + exp(4x));exp(6*u)/(exp(4*u) + 1);0
+log(2 + 3(x^2));log(3*u**2 + 2);0
+0.3333333333333333;0.3333333333333333;0
+0.43136866738673707;0.43136866738673707;0

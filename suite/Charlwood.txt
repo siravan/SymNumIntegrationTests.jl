@@ -1,0 +1,50 @@
+log(x)*asin(x);log(u)*asin(u);0
+(x*asin(x)) / sqrt(1 - (x^2));u*asin(u)/sqrt(1 - u**2);0
+asin(-sqrt(x) + sqrt(1 + x));-asin(sqrt(u) - sqrt(u + 1));0
+log(1 + x*sqrt(1 + x^2));log(u*sqrt(u**2 + 1) + 1);0
+(cos(x)^2) / sqrt(1 + cos(x)^2 + cos(x)^4);cos(u)**2/sqrt(cos(u)**4 + cos(u)**2 + 1);0
+tan(x)*sqrt(1 + tan(x)^4);sqrt(tan(u)**4 + 1)*tan(u);0
+tan(x) / sqrt(1 + sec(x)^3);tan(u)/sqrt(sec(u)**3 + 1);0
+sqrt(2 + 2tan(x) + tan(x)^2);sqrt(tan(u)**2 + 2*tan(u) + 2);0
+atan(sqrt(-1 + sec(x)))*sin(x);sin(u)*atan(sqrt(sec(u) - 1));0
+((x^3)*exp(asin(x))) / sqrt(1 - (x^2));u**3*exp(asin(u))/sqrt(1 - u**2);0
+(x*log(1 + x^2)*log(x + sqrt(1 + x^2))) / sqrt(1 + x^2);u*log(u + sqrt(u**2 + 1))*log(u**2 + 1)/sqrt(u**2 + 1);0
+atan(x + sqrt(1 - (x^2)));atan(u + sqrt(1 - u**2));0
+(x*atan(x + sqrt(1 - (x^2)))) / sqrt(1 - (x^2));u*atan(u + sqrt(1 - u**2))/sqrt(1 - u**2);0
+asin(x) / (1 + sqrt(1 - (x^2)));asin(u)/(sqrt(1 - u**2) + 1);0
+log(x + sqrt(1 + x^2)) / ((1 - (x^2))^1.5);log(u + sqrt(u**2 + 1))/(1 - u**2)**1.5;0
+asin(x) / ((1 + x^2)^1.5);asin(u)/(u**2 + 1)**1.5;0
+log(x + sqrt(-1 + x^2)) / ((1 + x^2)^1.5);log(u + sqrt(u**2 - 1))/(u**2 + 1)**1.5;0
+log(x) / ((x^2)*sqrt(-1 + x^2));log(u)/(u**2*sqrt(u**2 - 1));0
+sqrt(1 + x^3) / x;sqrt(u**3 + 1)/u;0
+(x*log(x + sqrt(-1 + x^2))) / sqrt(-1 + x^2);u*log(u + sqrt(u**2 - 1))/sqrt(u**2 - 1);0
+((x^3)*asin(x)) / sqrt(1 - (x^4));u**3*asin(u)/sqrt(1 - u**4);0
+((x^3)*asec(x)) / sqrt(-1 + x^4);u**3*asec(u)/sqrt(u**4 - 1);0
+(x*atan(x)*log(x + sqrt(1 + x^2))) / sqrt(1 + x^2);u*log(u + sqrt(u**2 + 1))*atan(u)/sqrt(u**2 + 1);0
+(x*log(1 + sqrt(1 - (x^2)))) / sqrt(1 - (x^2));u*log(sqrt(1 - u**2) + 1)/sqrt(1 - u**2);0
+(x*log(x + sqrt(1 + x^2))) / sqrt(1 + x^2);u*log(u + sqrt(u**2 + 1))/sqrt(u**2 + 1);0
+(x*log(x + sqrt(1 - (x^2)))) / sqrt(1 - (x^2));u*log(u + sqrt(1 - u**2))/sqrt(1 - u**2);0
+log(x) / ((x^2)*sqrt(1 - (x^2)));log(u)/(u**2*sqrt(1 - u**2));0
+(x*atan(x)) / sqrt(1 + x^2);u*atan(u)/sqrt(u**2 + 1);0
+atan(x) / ((x^2)*sqrt(1 - (x^2)));atan(u)/(u**2*sqrt(1 - u**2));0
+(x*atan(x)) / sqrt(1 - (x^2));u*atan(u)/sqrt(1 - u**2);0
+atan(x) / ((x^2)*sqrt(1 + x^2));atan(u)/(u**2*sqrt(u**2 + 1));0
+asin(x) / ((x^2)*sqrt(1 - (x^2)));asin(u)/(u**2*sqrt(1 - u**2));0
+(x*log(x)) / sqrt(-1 + x^2);u*log(u)/sqrt(u**2 - 1);0
+log(x) / ((x^2)*sqrt(1 + x^2));log(u)/(u**2*sqrt(u**2 + 1));0
+(x*asec(x)) / sqrt(-1 + x^2);u*asec(u)/sqrt(u**2 - 1);0
+(x*log(x)) / sqrt(1 + x^2);u*log(u)/sqrt(u**2 + 1);0
+sin(x) / (1 + sin(x)^2);sin(u)/(sin(u)**2 + 1);0
+(1 + x^2) / ((1 - (x^2))*sqrt(1 + x^4));(u**2 + 1)/((1 - u**2)*sqrt(u**4 + 1));0
+(1 - (x^2)) / ((1 + x^2)*sqrt(1 + x^4));(1 - u**2)/((u**2 + 1)*sqrt(u**4 + 1));0
+log(sin(x)) / (1 + sin(x));log(sin(u))/(sin(u) + 1);0
+log(sin(x))*sqrt(1 + sin(x));sqrt(sin(u) + 1)*log(sin(u));0
+sec(x) / sqrt(-1 + sec(x)^4);sec(u)/sqrt(sec(u)**4 - 1);0
+tan(x) / sqrt(1 + tan(x)^4);tan(u)/sqrt(tan(u)**4 + 1);0
+sin(x) / sqrt(1 - (sin(x)^6));sin(u)/sqrt(1 - sin(u)**6);0
+sqrt(sqrt(1 + sec(x)) - sqrt(-1 + sec(x)));sqrt(-sqrt(sec(u) - 1) + sqrt(sec(u) + 1));0
+x*log(1 + x^2)*(atan(x)^2);u*log(u**2 + 1)*atan(u)**2;0
+atan(x*sqrt(1 + x^2));atan(u*sqrt(u**2 + 1));0
+atan(-sqrt(x) + sqrt(1 + x));-atan(sqrt(u) - sqrt(u + 1));0
+asin(x / sqrt(1 - (x^2)));asin(u/sqrt(1 - u**2));0
+atan(x*sqrt(1 - (x^2)));atan(u*sqrt(1 - u**2));0

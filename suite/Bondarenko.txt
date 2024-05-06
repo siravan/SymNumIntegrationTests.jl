@@ -1,0 +1,35 @@
+1 / (1.4142135623730951 + sin(x) + cos(x));1/(sin(u) + cos(u) + 1.4142135623731);0
+1 / ((sqrt(1 - x) + sqrt(1 + x))^2);(sqrt(1 - u) + sqrt(u + 1))**(-2);0
+1 / ((1 + cos(x))^2);(cos(u) + 1)**(-2);0
+sin(x) / sqrt(1 + x);sin(u)/sqrt(u + 1);0
+1 / ((sin(x) + cos(x))^6);(sin(u) + cos(u))**(-6);0
+log(1 / (x^4) + x^4);log(u**4 + u**(-4));0
+log(1 + x) / (x*sqrt(1 + sqrt(1 + x)));log(u + 1)/(u*sqrt(sqrt(u + 1) + 1));0
+(sqrt(1 + sqrt(1 + x))*log(1 + x)) / x;sqrt(sqrt(u + 1) + 1)*log(u + 1)/u;0
+1 / (1 + sqrt(x + sqrt(1 + x^2)));1/(sqrt(u + sqrt(u**2 + 1)) + 1);0
+sqrt(1 + x) / (x + sqrt(1 + sqrt(1 + x)));sqrt(u + 1)/(u + sqrt(sqrt(u + 1) + 1));0
+1 / (x - sqrt(1 + sqrt(1 + x)));1/(u - sqrt(sqrt(u + 1) + 1));0
+x / (x + sqrt(1 - sqrt(1 + x)));u/(u + sqrt(1 - sqrt(u + 1)));0
+sqrt(x + sqrt(1 + x)) / ((1 + x^2)*sqrt(1 + x));sqrt(u + sqrt(u + 1))/(sqrt(u + 1)*(u**2 + 1));0
+sqrt(x + sqrt(1 + x)) / (1 + x^2);sqrt(u + sqrt(u + 1))/(u**2 + 1);0
+sqrt(1 + sqrt(x) + sqrt(1 + 2x + 2sqrt(x)));sqrt(sqrt(u) + sqrt(2*sqrt(u) + 2*u + 1) + 1);0
+sqrt(1.4142135623730951 + sqrt(2 + 2x + 2.8284271247461903sqrt(x)) + sqrt(x));1.29683955465101*sqrt(0.594603557501361*sqrt(u) + sqrt(sqrt(u) + 0.707106781186547*u + 0.707106781186547) + 0.840896415253715);0
+sqrt(x + sqrt(1 + x)) / (x^2);sqrt(u + sqrt(u + 1))/u**2;0
+sqrt(1 / x + sqrt(1 + 1 / x));sqrt(sqrt(1 + 1/u) + 1/u);0
+sqrt(1 + exp(-x)) / (-exp(-x) + exp(x));sqrt(1 + exp(-u))/(exp(u) - exp(-u));0
+sqrt(1 + exp(-x)) / sinh(x);sqrt(1 + exp(-u))/sinh(u);0
+1 / ((cos(x) + cos(3x))^5);(cos(u) + cos(3*u))**(-5);0
+1 / ((1 + sin(x) + cos(x))^2);(sin(u) + cos(u) + 1)**(-2);0
+sqrt(1 + tanh(4x));sqrt(tanh(4*u) + 1);0
+tanh(x) / sqrt(exp(x) + exp(2x));tanh(u)/sqrt(exp(2*u) + exp(u));0
+sqrt(sinh(2x) / cosh(x));sqrt(sinh(2*u)/cosh(u));0
+log(sqrt(1 - (x^2)) + x^2);log(u**2 + sqrt(1 - u**2));0
+log(1 + exp(x)) / (1 + exp(2x));log(exp(u) + 1)/(exp(2*u) + 1);0
+cosh(x)*(log(1 + cosh(x)^2)^2);log(cosh(u)**2 + 1)**2*cosh(u);0
+cosh(x)*(log(sinh(x) + cosh(x)^2)^2);log(sinh(u) + cosh(u)**2)**2*cosh(u);0
+log(x + sqrt(1 + x)) / (1 + x^2);log(u + sqrt(u + 1))/(u**2 + 1);0
+(log(x + sqrt(1 + x))^2) / ((1 + x)^2);log(u + sqrt(u + 1))**2/(u + 1)**2;0
+log(x + sqrt(1 + x)) / x;log(u + sqrt(u + 1))/u;0
+atan(2tan(x));atan(2*tan(u));0
+(atan(x)*log(x)) / x;log(u)*atan(u)/u;0
+(atan(x)^2)*sqrt(1 + x^2);sqrt(u**2 + 1)*atan(u)**2;0
